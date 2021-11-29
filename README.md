@@ -1,10 +1,9 @@
 
 1. **Pre-instructions**
     - node v14.16.0 has to be installed.
-    - Extract the zip folder
-    - Go to the Assembly folder(treat this as project directory)
+    - clone this git repo.
     - run "npm install"
-    - run node index.js"(Server will run on port 5000)
+    - run "node index.js"(Server will run on port 5000)
 2. **Task**
     - Making an API call to LaCity API to fetch the visitors data by month(as API supports month parameter).
     - API Endpoint details to check this
