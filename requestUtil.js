@@ -41,7 +41,7 @@ class Request {
                 result = JSON.parse(response.body);
             } catch (e) {
                 console.error(`<=== Error in Parsing API Request ${this.resourceName} response ===>, \n<=== error ===> ${e} , \n<=== request Options  ===> ${JSON.stringify(reqOptions)}, \n<=== response ===>  ${JSON.stringify(result)}`);
-                return Promise.reject(err);
+                return Promise.reject(e);
             }
             return result;
         } catch (err) {
