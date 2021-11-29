@@ -1,4 +1,4 @@
-#musueum-visitors
+*musueum-visitors*
 1. **Pre-instructions**
     - node v14.16.0 has to be installed.
     - Extract the zip folder
